@@ -1,14 +1,14 @@
 
 // theme colors
 $primary: #327dee;
-$secondery: #1ac888;
+$secondary: #1ac888;
 $error: #d32752;
 $info: #f6c31c;
 
 // color palette
 $colors : (
     "primary" : $primary,
-    "secondery" : $secondery,
+    "secondary" : $secondary,
     "error" : $error,
     "info" : $info,
     "blue" : #1919e6,
@@ -22,10 +22,6 @@ $colors : (
     "white" : white,
 
 );
-
-.text-blue {
-    color : map-get($colors, "blue") 
-}
 
 
 
